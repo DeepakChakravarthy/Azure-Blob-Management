@@ -4,7 +4,7 @@ require('dotenv').config()
 
 async function main() {
     console.log('Azure Blob storage v12 - JavaScript quickstart sample');
-    const AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=job360store;AccountKey=74jBM1s0Zp0EmTx0bV5NJZAvZVG41veLQ5LGqSXIKzIJxnZCjT8NmLt1z6BGVPVSUMFJQbBT+9h++AStIs6Ssg==;EndpointSuffix=core.windows.net"
+    const AZURE_STORAGE_CONNECTION_STRING = "Connection String"
 
 if (!AZURE_STORAGE_CONNECTION_STRING) {
   throw Error("Azure Storage Connection string not found");
